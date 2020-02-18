@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Page3">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a user?"
+        android:textSize="15pt"
+        android:textColor="#499F77"
+        android:layout_marginStart="@android:dimen/notification_large_icon_height"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15pt"
+        android:textColor="#499F77"
+        android:layout_marginStart="@android:dimen/notification_large_icon_height"
+        android:onClick="login"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have account?"
+        android:textSize="10pt"
+        android:textColor="#499F77"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We got you.....!"
+        android:textSize="10pt"
+        android:textColor="#499F77"
+        android:layout_gravity="right"
+        android:layout_marginEnd="30dp"
+        android:onClick="signup"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/image3"></ImageView>
+
+</LinearLayout>
