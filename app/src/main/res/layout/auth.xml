@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".Page3">
+    tools:context=".Auth">
 
     <ImageView
         android:layout_width="100dp"

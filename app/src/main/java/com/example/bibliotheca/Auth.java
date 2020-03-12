@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Page3 extends AppCompatActivity {
+public class Auth extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page3);
+        setContentView(R.layout.auth);
     }
 
     public void login(View view)
@@ -21,6 +21,6 @@ public class Page3 extends AppCompatActivity {
 
     public void signup(View view)
     {
-        startActivity(new Intent(getApplicationContext(),Page5.class));
+        startActivity(new Intent(getApplicationContext(), SignUp.class));
     }
 }

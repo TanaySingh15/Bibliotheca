@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class Page5 extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     EditText n,e,p;
     String email,pass;
@@ -15,7 +15,7 @@ public class Page5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page5);
+        setContentView(R.layout.signup);
         n=findViewById(R.id.Name);
         e=findViewById(R.id.email);
         p=findViewById(R.id.password);
@@ -26,7 +26,7 @@ public class Page5 extends AppCompatActivity {
 
     public void create(View view)
     {
-        startActivity(new Intent(getApplicationContext(),Page6.class));
+        startActivity(new Intent(getApplicationContext(), OTP.class));
     }
 
     public void back(View view)
