@@ -16,7 +16,7 @@ public class Auth extends AppCompatActivity {
 
     public void login(View view)
     {
-        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        startActivity(new Intent(getApplicationContext(),Login.class));
     }
 
     public void signup(View view)

@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".Page2">
+    tools:context=".Page2"
+    android:onClick="auth">
 
     <ImageView
         android:layout_width="100dp"
@@ -42,6 +43,6 @@
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/image3"></ImageView>
+        android:background="@drawable/image3"/>
 
 </LinearLayout>
